@@ -4,7 +4,7 @@
 
 ## Name Section
   **Questions -**
-    * Will each name be unuique?
+  1. Will each name be unuique?
   
 ## Phone Number Section
 
