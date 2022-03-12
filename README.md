@@ -8,18 +8,25 @@
  
   **Questions -**
   1. Will each name be unuique?
-  2. Is there a certain format you would like the names to be in (ex: first,last or last,first)?
+  2. Is there a certain format you would like the names to be in (ex: first,last or last,first)? Placeholders will be added to the text field so the user clearly      knows how to format thier names. 
   
 ## Phone Number Section
 
 ## Emal Section
 
+**Questions -**
+ 1. formating
+
 ## Department Section
 
+ I will create a dropdown menu of the list of aliavble deparments for the user to select from. This way no typing is done by the user and ensures there will be no errors when selecting the correct deparment. 
+ 
+ **Questions -**
+  1. Is it safe to say for each deparment a different type of email is associated with it. For example, if my deparment is Sales my email must be associated with the sales deparment. My email could be **acmemarcus123@sales.com**, that would be routed to the Sales deparment because of **@sales.com**.  
 
 ## Message Section
 
- For the message box, I will make an expandable field to type in that has a limit on how many characters can be typed. This way it can prevent any messages that is to long.
+ I will create an expandable text field to type in that has a limit on how many characters can be typed. This way it can prevent any messages that is to long.
 
  **Questions -**
   1. Will your custmors who use this form need to send anything other than just text. For example someone may need to send  a PDF, CSV, txt, etc ... If so, it is       possible to add a feature to attach files and text in the message section.
