@@ -12,9 +12,9 @@
   
 ## Phone Number Section
 
-I will create a text felid with enough unlimted amount of space so any phone number can fit. To follow your proper fotmatting (xxx-xxx-xxxx), there are many efficent ways of handling that format.
+I will create a text felid with enough unlimted amount of space so any phone number can fit. To follow your proper fotmatting (xxx-xxx-xxxx), there are many efficent ways of handling that format. The site will update automatically update on every user change, formatting the number accordingly.
 
-**For Example -**
+**For Example consider this function -**
 
 ```
 const formatPhoneNumber = (number) => {
