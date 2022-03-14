@@ -12,6 +12,32 @@
   
 ## Phone Number Section
 
+I will create a text felid with enough unlimted amount of space so any phone number can fit. To follow your proper fotmatting (xxx-xxx-xxxx), there are many efficent ways of handling that format.
+**For Example -**
+```
+const formatPhoneNumber = (number) => {
+
+    // This line of code took me some time and studying to find out I need to turn my number parameter into a string before I can work with it. It came back as just a number when invoking this function. Then I used .replace to get rid of digits and charterer and return my number parameter into a string!!!
+    const phoneNumber = number.replace(/[^\d]/g, "");
+
+    const phoneNumberLength = phoneNumber.length
+    // console.log(number)
+    // If a user only types in 3 numbers then return those numbers. It helps with any bugs that may happen when a use types in more than 3 numbers
+    if( phoneNumberLength < 4) return phoneNumber
+
+    // Less than 7 numbers
+    if(phoneNumberLength < 7) {return `${phoneNumber.slice(0, 3,)}-${phoneNumber.slice(3)}`}
+
+    // last, return all numbers greater then 7 formatted
+    if(phoneNumberLength < 9 ) return  `${phoneNumber.slice(0, 3,)}-${phoneNumber.slice(3, 6)}-${number.slice(6, 10)}`
+
+  }
+```
+This is a basic format on how I would format your phone numbers. Given its a diffrent country my code would change sighty.
+
+**Questions -**
+1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone number that could be enterned so I know how to format my code. 
+
 ## Emal Section
 
 I will create a text field with an unlimted amount of space so every email will fit. Because each department depends on the email entered its best to have emails follow a certain format so it can be routed to the correct department. For example my email could be **acmemarcus123@sales.com**, that would be routed to the Sales department because of **@sales.com**. Using this convention would be easy for the user to know how to proprely type thier email taht matches its department. A place holder will also be added in the text field so users can see beforehad how to properly type thier emails.
