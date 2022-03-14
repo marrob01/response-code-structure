@@ -37,6 +37,8 @@ const formatPhoneNumber = (number) => {
 
 This is a basic format on how I would format your phone numbers. Given it's a different country my code would change sighty.
 
+When a user types in thier phone number, the phone number form element will automatacly fomat the number. This way there won't be any erros when typing a number. 
+
 **Questions -**
 
  1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone numbers that could be entered so I know how to format my code. 
@@ -46,6 +48,9 @@ This is a basic format on how I would format your phone numbers. Given it's a di
 I will create a text field with an unlimited amount of space so every email will fit. Because each department depends on the email entered, it's best to have emails follow a certain format so it can be routed to the correct department. For example my email could be **acmemarcus123@sales.com**, that would be routed to the Sales department because of **@sales.com**. Using this convention would be easy for the user to know how to properly type the email that matches its department. A place holder will also be added in the text field so users can see beforehand how to properly type their emails.
 
 If a user enters in an email that doesn't match the correct department, an error will be shown above the email text box reminding the user to use an email that corresponds to the correct department. 
+
+ **Questions -**
+  1. What would be then best format or how shold I format emails for your convinence?  
 
 ## Department Section
 
@@ -64,9 +69,6 @@ In the future you may have a user with multiple email addresses in different dep
   1. Will your users who use this form need to send anything other than just text. For example someone may need to send  a PDF, CSV, txt file, etc ... If so, it      is possible to add a feature to attach files and text in the message section.
   2. Is there a limit on how long a message should be? If there is, please let me know so I can make a maximum amount of charters to type.
 
-# Spam Risk, Bots, Malicious Code
-
-To prevent your site from any forms of attack or spam there is some methods I can take to ensure this wont happen. Such as 
 # A Hidden Email In Source Code
 
 It is possible and there are a few methods to hide your source code, stop users from inspecting the source code, prevent users from pressing keys to access the source code, and most importantly obfuscate files. By following this general pattern it will be really hard for someone to find the source code. Even if they did manage to find the source code, it won't be readable by humans when those files are sent to the client. 
