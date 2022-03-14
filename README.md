@@ -13,7 +13,9 @@
 ## Phone Number Section
 
 I will create a text felid with enough unlimted amount of space so any phone number can fit. To follow your proper fotmatting (xxx-xxx-xxxx), there are many efficent ways of handling that format.
+
 **For Example -**
+
 ```
 const formatPhoneNumber = (number) => {
 
@@ -36,7 +38,8 @@ const formatPhoneNumber = (number) => {
 This is a basic format on how I would format your phone numbers. Given its a diffrent country my code would change sighty.
 
 **Questions -**
-1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone number that could be enterned so I know how to format my code. 
+
+       1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone number that could be enterned so I know how to format my code. 
 
 ## Emal Section
 
@@ -77,4 +80,4 @@ In the future you may have a user with multiple email addresses in diffrent depa
 # Technology Recommendations
 To craete this form I recommend using React.js then utiizing its hooks and functions to create this form. React hooks have a great state/data mangment system, allowing allowing me to do more with less code! Hooks also provide you with dozens of useful functions to manage how data flows and can be reused through your entire applaction. Because react is also a component based library it makes working with smaller parts of a website eaiser (like this contact form), I can control what happens to each from element every time there is a single change. To also mention React is also faster than lots of librarys and frameworks due to the fact it runs on a virtual DOM.
 
-I say, Javascript in general would also be the way to go because of how secure, fast and helpfull it can be.
+I say, Javascript in general would also be the way to go because of how secure, fast and helpfull it can be. 🚀 
