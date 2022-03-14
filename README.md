@@ -19,7 +19,6 @@ I will create a text felid with enough unlimted amount of space so any phone num
 ```
 const formatPhoneNumber = (number) => {
 
-    // This line of code took me some time and studying to find out I need to turn my number parameter into a string before I can work with it. It came back as just a number when invoking this function. Then I used .replace to get rid of digits and charterer and return my number parameter into a string!!!
     const phoneNumber = number.replace(/[^\d]/g, "");
 
     const phoneNumberLength = phoneNumber.length
