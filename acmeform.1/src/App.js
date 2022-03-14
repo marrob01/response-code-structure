@@ -1,12 +1,15 @@
-import From from './From.js'
 import React from 'react'
+import Form from './Form'
+
 function App() {
 
 
 
   return (
     <div>
-      <From />
+
+
+      <Form />
 
     </div>
 
