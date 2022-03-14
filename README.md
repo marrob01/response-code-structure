@@ -34,11 +34,12 @@ const formatPhoneNumber = (number) => {
 
   }
 ```
+
 This is a basic format on how I would format your phone numbers. Given its a diffrent country my code would change sighty.
 
 **Questions -**
 
-       1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone number that could be enterned so I know how to format my code. 
+ 1.Will your users have to enter phone numbers that aren't US based? It helps to know all the possible phone number that could be enterned so I know how to format my code. 
 
 ## Emal Section
 
@@ -50,7 +51,7 @@ If a user enters in a email that dosen't match the corect department, an error w
 
 I will create a dropdown menu of the list of aliavble departments for the user to select from. This way no typing is done by the user and ensures there will be no errors when selecting the correct department. Each department will be associated with a unuique email address. 
  
-In the future you may have a user with multiple email addresses in diffrent departments, to address this issue, like explained in the email section. Its best to have emails follow a format
+In the future you may have a user with multiple email addresses in diffrent departments, to address this issue, like explained in the email section. Its best to have emails follow a format.
  
  **Questions -**
   1. Is it safe to say for each department a different type of email is associated with it? For example, if my department is Sales my email must be associated with the sales department.
@@ -61,11 +62,15 @@ In the future you may have a user with multiple email addresses in diffrent depa
 
  **Questions -**
   1. Will your users who use this form need to send anything other than just text. For example someone may need to send  a PDF, CSV, txt file, etc ... If so, it      is possible to add a feature to attach files and text in the message section.
-  2. Is there a limit on how long a message should be? If there is, please let me know.
+  2. Is there a limit on how long a message should be? If there is, please let me know so I can amke a maxium amount of charters to type.
 
 # Spam Risk
 
 # A Hidden Email In Souece Code
+
+It is possible and there are a few methods to hide your source code, stop users from inspecting the source code, prevent users from pressing keys to access the source code, and most importanly obfuscate files. By following this general pattern it will be really hard for someone to find the source code. Even if they did mange to find the source codde, it wont be readable by humans when those files are sent to the client. 
+
+There are plenty of online tools that can be intergated into our web applaction to obfuscate files depending on the lanuage. By also writing some functions inside of my code, It can be very annyoying to view the source code. It would take a user a credible amount of time to dycrypt and debbug the applaction just to view my code in a readible format.
 
 # Additional Features  
 * If you want to give your customer the option add files or text such as PDF, CSV, txt, etc ... It would be easier and neat for the user to have seprate section under messages to attach a file. That would also be faster for my development team rather than doing this all in the message section. 
@@ -74,7 +79,7 @@ In the future you may have a user with multiple email addresses in diffrent depa
     * In the future you may even have to change how emails are formatted. However with an admin login its possible to edit all of your department and what email     format it should follow. This way you have complete flexablity on departments routed with Emails.
 
 # General Understanding 
-* Upon a user succesfully completeing this form then clicking send/submit, where is this form data being sent to? Do you want it to sent to a email, a internal source, etc..? This is very important because this contact form data needs to be sent to somewhere so you can view it.
+* Upon a user succesfully completeing this form then clicking send/submit, where is this form data being sent to? Do you want it to sent to a email, a internal source, etc..? This is very important because this contact form data needs to be sent to somewhere so you can view it. It would also help identify how to prevent spam risk, user bots, etc...
 
 # Technology Recommendations
 To craete this form I recommend using React.js then utiizing its hooks and functions to create this form. React hooks have a great state/data mangment system, allowing allowing me to do more with less code! Hooks also provide you with dozens of useful functions to manage how data flows and can be reused through your entire applaction. Because react is also a component based library it makes working with smaller parts of a website eaiser (like this contact form), I can control what happens to each from element every time there is a single change. To also mention React is also faster than lots of librarys and frameworks due to the fact it runs on a virtual DOM.
