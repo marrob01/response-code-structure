@@ -1,5 +1,10 @@
 # Response-Code-Structure
 
+# To start the applaction
+
+Run **npm i** then **npm start**
+
+
 # Acme Company - Contact Us Page
 
 ## Name Section
